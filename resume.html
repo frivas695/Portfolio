@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Resume</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Fernando Rivas</h1>
+            <p>1566 10th St. Bremerton, WA 98337 | 860-514-9331 | frivas3@wgu.edu</p>
+        </header>
+<nav>
+    <!--resume.html-->
+        <p>
+            <a href="resume.html">Resume</a>
+        </p>
+    <!--career-goals.html-->
+        <p>
+            <a href="career-goals.html">Career Goals</a>
+        </p>
+    <!--cover-letter.html-->
+        <p>
+            <a href="cover-letter.html">Cover Letter</a>
+        </p>
+</nav>
+<hr>
+    <!--The following sections all contain the written body of my resume-->
+<main>
+
+<section id="Summary">
+    <h1><span style="color:rgb(0, 0, 255);">Summary</span></h1>
+    <article>
+        <p>Dedicated Sonar Technician Submarine (STS) with 6 years of experience in the United States Navy, 
+        specializing in advanced sonar systems operation and maintenance. 
+        As a Sonar Supervisor and Leading Petty Officer, I successfully led a team in analyzing complex data 
+        to inform operational decisions and enhance mission safety. Proven ability to manage resources effectively, 
+        develop strategic plans, and ensure compliance with regulations. Committed to applying technical expertise 
+        and leadership skills to contribute to mission success in dynamic environments.
+        </p>
+    </article>
+</section>
+<hr>
+
+<section id="Education">
+    <h2><span style="color:rgb(0, 0, 255);">Education</span></h2>
+    <article>
+        <p><strong>High School Diploma</strong><br>
+        Yuba City High School (2019)
+        </p>
+    </article>
+</section>
+<hr>
+
+<section id="Skills">
+    <h2><span style="color:rgb(0, 0, 255);">Skills</span></h2>
+    <article>
+        <p>Electromechanical Systems Troubleshooting and Maintenance</p>
+            <ul>
+                <li>Electronics Troubleshooting</li>
+                <li>Team Leadership and Supervision</li>
+                <li>Management of Material Resources</li>
+                <li>Judgement and Decision Making</li>
+                <li>Systems Analysis and Evaluation</li>
+                <li>Records Management</li>
+                <li>Basic Electronics Laboratory Skills</li>
+                <li>Introduction to Physical Oceanography</li>
+            </ul>
+    </article>
+</section>
+<hr>
+
+<section id="Experience">
+    <h2><span style="color:rgb(0, 0, 255);">Experience</span></h2>
+    <article>
+        <p><strong>United States Navy</strong><br><strong>Sonar Technician Submarines - Leading Petty Officer</strong>
+            <br><strong>2019-Present</strong>
+                <ul>
+                    <li>Led and supervised a team of sonar technicians, ensuring high standards of performance and safety.</li>
+                    <li>Aligned and maintained advanced sonar equipment, contributing to mission readiness and operational success.</li>
+                    <li>Analyzed and interpreted environmental and geological data to support strategic decision-making.</li>
+                    <li>Developed and implemented a new policy for creating safety tag-outs on equipment, resulting in the savings of hundreds of man-hours and enhancing safety compliance.</li>
+                    <li>Trained and mentored junior personnel, enhancing their technical skills and knowledge in sonar operations.</li>
+                    <li>Communicated critical operational information to stakeholders, fostering collaboration and informed decision-making.</li>
+                </ul></p>
+    </article>
+</section>
+
+<section id="Certifications">
+    <table>
+        <caption><strong>Certifications</strong></caption>
+        <tr>
+            <th>Organization</th>
+            <th>Certification</th>
+            <th>Earned</th>
+            <th>Expires</th>
+        </tr>
+        <tr>
+            <td>CompTIA</td>
+            <td>A+</td>
+            <td>2025</td>
+            <td>2028</td>
+        </tr>
+        <tr>
+            <td>CompTIA</td>
+            <td>Network+</td>
+            <td>Planned</td>
+            <td>-</td>
+        <tr>
+            <td>CompTIA</td>
+            <td>Security+</td>
+            <td>Planned</td>
+            <td>-</td>
+        <tr>
+            <td>CompTIA</td>
+            <td>CySA+</td>
+            <td>Planned</td>
+            <td>-</td>
+        </tr>    
+        </tr>
+        </tr>
+    </table>
+    <h2><span style="color:rgb(0, 0, 255);">Awards</span></h2>
+        <p><em>Navy and Marine Corps Achievement Medal (4 Awards)</em></p>
+</section>
+<section id="date">
+    <h2>Current Date</h2>
+    <div id="current-date"></div>
+</section>
+</main>
+<hr>
+<footer>
+    <p>Copyright © 2025 Fernando Rivas</p>
+</footer>
+<script>
+  window.onload = function() {
+    const dateDiv = document.getElementById("current-date");
+    const currentDate = new Date().toLocaleDateString();
+    dateDiv.textContent = "Today's Date: " + currentDate;
+
+    console.log("Resume loaded on " + currentDate);
+  };
+</script>
+    </body>
+</html>
